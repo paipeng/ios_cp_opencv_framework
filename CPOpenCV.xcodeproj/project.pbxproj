@@ -14,6 +14,8 @@
 		73E674122CA4F1060015DE78 /* cp_opencv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E674102CA4F1060015DE78 /* cp_opencv.cpp */; };
 		73E674132CA4F1060015DE78 /* cp_opencv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 73E674112CA4F1060015DE78 /* cp_opencv.hpp */; };
 		73E674162CA4FA570015DE78 /* CPOpenCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E674152CA4FA570015DE78 /* CPOpenCV.swift */; };
+		73E674192CA4FFC90015DE78 /* qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E674182CA4FFC90015DE78 /* qrcode.png */; };
+		73E6741B2CA500E00015DE78 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6741A2CA500E00015DE78 /* UIImage+extension.swift */; };
 		E2B0DEB5B02AEE1BD2CC6303 /* Pods_CPOpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */; };
 		EB44B09DABF25F01993955AE /* Pods_CPOpenCV_CPOpenCVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,8 @@
 		73E674112CA4F1060015DE78 /* cp_opencv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cp_opencv.hpp; sourceTree = "<group>"; };
 		73E674142CA4F3D40015DE78 /* CPOpenCV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPOpenCV-Bridging-Header.h"; sourceTree = "<group>"; };
 		73E674152CA4FA570015DE78 /* CPOpenCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPOpenCV.swift; sourceTree = "<group>"; };
+		73E674182CA4FFC90015DE78 /* qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode.png; sourceTree = "<group>"; };
+		73E6741A2CA500E00015DE78 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
 		81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; path = "Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.release.xcconfig"; path = "Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.release.xcconfig"; sourceTree = "<group>"; };
 		CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +94,7 @@
 		73E673F82CA4F02D0015DE78 /* CPOpenCV */ = {
 			isa = PBXGroup;
 			children = (
+				73E6741A2CA500E00015DE78 /* UIImage+extension.swift */,
 				73E673F92CA4F02D0015DE78 /* CPOpenCV.h */,
 				73E673FA2CA4F02D0015DE78 /* CPOpenCV.docc */,
 				73E674102CA4F1060015DE78 /* cp_opencv.cpp */,
@@ -103,9 +108,18 @@
 		73E674042CA4F02E0015DE78 /* CPOpenCVTests */ = {
 			isa = PBXGroup;
 			children = (
+				73E674172CA4FF920015DE78 /* Resources */,
 				73E674052CA4F02E0015DE78 /* CPOpenCVTests.swift */,
 			);
 			path = CPOpenCVTests;
+			sourceTree = "<group>";
+		};
+		73E674172CA4FF920015DE78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73E674182CA4FFC90015DE78 /* qrcode.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C3227AE3C2D3A229F813D77F /* Pods */ = {
@@ -170,6 +184,7 @@
 				73E673FC2CA4F02E0015DE78 /* Sources */,
 				73E673FD2CA4F02E0015DE78 /* Frameworks */,
 				73E673FE2CA4F02E0015DE78 /* Resources */,
+				B3CB2E2F6E7E3FED805126B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E674192CA4FFC90015DE78 /* qrcode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +273,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CB2E2F6E7E3FED805126B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C1BC948F65D1B62EF0B09D79 /* [CP] Check Pods Manifest.lock */ = {
@@ -291,6 +324,7 @@
 				73E673FB2CA4F02D0015DE78 /* CPOpenCV.docc in Sources */,
 				73E674122CA4F1060015DE78 /* cp_opencv.cpp in Sources */,
 				73E674162CA4FA570015DE78 /* CPOpenCV.swift in Sources */,
+				73E6741B2CA500E00015DE78 /* UIImage+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +485,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -487,6 +522,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -517,6 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WV9454F626;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.paipeng.CPOpenCVTests;
@@ -535,6 +572,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WV9454F626;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.paipeng.CPOpenCVTests;

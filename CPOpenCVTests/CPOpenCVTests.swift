@@ -41,6 +41,25 @@ final class CPOpenCVTests: XCTestCase {
         print("opencv: \(cpopencv.getVersion())")
     }
 
+    
+    func testImageConvert() throws {
+        let bundle = Bundle(for: type(of: self))
+        let path = bundle.path(forResource: "qrcode", ofType: "png")!
+        let image = UIImage(contentsOfFile: path)
+        XCTAssertNotNil(image)
+        
+        guard let rgbData = image?.getRGBPixelData() else { return }
+        let uint8_pointer = UnsafeMutablePointer<UInt8>(mutating: rgbData);
+        let width: Int32 = Int32((image?.size.width)!)
+        let height: Int32 = Int32((image?.size.height)!)
+        var pixelData = [UInt8](repeating: 0, count: Int(width * height))
+        
+        let grayData = convertGrayscale(uint8_pointer, 0, width, height, UnsafeMutablePointer<UInt8>(mutating: pixelData))
+        
+
+        let grayImage = UIImage.convert(pixelBuffer: pixelData, width: Int(width), height: Int(height), orientation: UIImage.Orientation.up)
+        XCTAssertNotNil(grayImage)
+    }
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
