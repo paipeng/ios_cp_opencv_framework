@@ -45,6 +45,7 @@
 		73E674152CA4FA570015DE78 /* CPOpenCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPOpenCV.swift; sourceTree = "<group>"; };
 		73E674182CA4FFC90015DE78 /* qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode.png; sourceTree = "<group>"; };
 		73E6741A2CA500E00015DE78 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
+		73E6741C2CA503F10015DE78 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; path = "Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.release.xcconfig"; path = "Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.release.xcconfig"; sourceTree = "<group>"; };
 		CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +75,7 @@
 		73E673EC2CA4F02D0015DE78 = {
 			isa = PBXGroup;
 			children = (
+				73E6741C2CA503F10015DE78 /* Package.swift */,
 				73E673F82CA4F02D0015DE78 /* CPOpenCV */,
 				73E674042CA4F02E0015DE78 /* CPOpenCVTests */,
 				73E673F72CA4F02D0015DE78 /* Products */,
