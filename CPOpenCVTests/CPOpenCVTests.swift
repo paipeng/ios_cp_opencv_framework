@@ -20,14 +20,23 @@ final class CPOpenCVTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    
 
     func testGetCPOpenCVVersion() throws {
+        let frameworkBundle = Bundle(identifier: "com.paipeng.CPOpenCV")
+        let frameworkVersion = frameworkBundle?.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+            
+        print("cpopencv: \(frameworkVersion)")
+    }
+
+    func testGetOpenCVVersion() throws {
         //let ver = CPOpenCV.CPOpenCVVersionString
         let str = String(cString: getOpenCVVersion())
         print("opencv: \(str)")
     }
     
-    func testGetCPOpenCVVersionViaWrapper() throws {
+    func testGetOpenCVVersionViaWrapper() throws {
         let cpopencv = CPOpenCV()
         print("opencv: \(cpopencv.getVersion())")
     }
