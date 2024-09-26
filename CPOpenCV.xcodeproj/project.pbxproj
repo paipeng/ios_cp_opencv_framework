@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73E673FB2CA4F02D0015DE78 /* CPOpenCV.docc in Sources */ = {isa = PBXBuildFile; fileRef = 73E673FA2CA4F02D0015DE78 /* CPOpenCV.docc */; };
+		73E674012CA4F02E0015DE78 /* CPOpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E673F62CA4F02D0015DE78 /* CPOpenCV.framework */; };
+		73E674062CA4F02E0015DE78 /* CPOpenCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E674052CA4F02E0015DE78 /* CPOpenCVTests.swift */; };
+		73E674072CA4F02E0015DE78 /* CPOpenCV.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E673F92CA4F02D0015DE78 /* CPOpenCV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73E674122CA4F1060015DE78 /* cp_opencv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E674102CA4F1060015DE78 /* cp_opencv.cpp */; };
+		73E674132CA4F1060015DE78 /* cp_opencv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 73E674112CA4F1060015DE78 /* cp_opencv.hpp */; };
+		73E674162CA4FA570015DE78 /* CPOpenCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E674152CA4FA570015DE78 /* CPOpenCV.swift */; };
+		E2B0DEB5B02AEE1BD2CC6303 /* Pods_CPOpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */; };
+		EB44B09DABF25F01993955AE /* Pods_CPOpenCV_CPOpenCVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73E674022CA4F02E0015DE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73E673ED2CA4F02D0015DE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73E673F52CA4F02D0015DE78;
+			remoteInfo = CPOpenCV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV_CPOpenCVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA8FD3C5E9210DAE0AE3A13 /* Pods-CPOpenCV-CPOpenCVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; path = "Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; sourceTree = "<group>"; };
+		695097D11248F49F989E9062 /* Pods-CPOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.debug.xcconfig"; path = "Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
+		73E673F62CA4F02D0015DE78 /* CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E673F92CA4F02D0015DE78 /* CPOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPOpenCV.h; sourceTree = "<group>"; };
+		73E673FA2CA4F02D0015DE78 /* CPOpenCV.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CPOpenCV.docc; sourceTree = "<group>"; };
+		73E674002CA4F02E0015DE78 /* CPOpenCVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPOpenCVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E674052CA4F02E0015DE78 /* CPOpenCVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPOpenCVTests.swift; sourceTree = "<group>"; };
+		73E674102CA4F1060015DE78 /* cp_opencv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cp_opencv.cpp; sourceTree = "<group>"; };
+		73E674112CA4F1060015DE78 /* cp_opencv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cp_opencv.hpp; sourceTree = "<group>"; };
+		73E674142CA4F3D40015DE78 /* CPOpenCV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPOpenCV-Bridging-Header.h"; sourceTree = "<group>"; };
+		73E674152CA4FA570015DE78 /* CPOpenCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPOpenCV.swift; sourceTree = "<group>"; };
+		81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; path = "Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.release.xcconfig"; path = "Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.release.xcconfig"; sourceTree = "<group>"; };
+		CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73E673F32CA4F02D0015DE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B0DEB5B02AEE1BD2CC6303 /* Pods_CPOpenCV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E673FD2CA4F02E0015DE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E674012CA4F02E0015DE78 /* CPOpenCV.framework in Frameworks */,
+				EB44B09DABF25F01993955AE /* Pods_CPOpenCV_CPOpenCVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73E673EC2CA4F02D0015DE78 = {
+			isa = PBXGroup;
+			children = (
+				73E673F82CA4F02D0015DE78 /* CPOpenCV */,
+				73E674042CA4F02E0015DE78 /* CPOpenCVTests */,
+				73E673F72CA4F02D0015DE78 /* Products */,
+				C3227AE3C2D3A229F813D77F /* Pods */,
+				C3736220CF07133CED75F51E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73E673F72CA4F02D0015DE78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73E673F62CA4F02D0015DE78 /* CPOpenCV.framework */,
+				73E674002CA4F02E0015DE78 /* CPOpenCVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E673F82CA4F02D0015DE78 /* CPOpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				73E673F92CA4F02D0015DE78 /* CPOpenCV.h */,
+				73E673FA2CA4F02D0015DE78 /* CPOpenCV.docc */,
+				73E674102CA4F1060015DE78 /* cp_opencv.cpp */,
+				73E674112CA4F1060015DE78 /* cp_opencv.hpp */,
+				73E674142CA4F3D40015DE78 /* CPOpenCV-Bridging-Header.h */,
+				73E674152CA4FA570015DE78 /* CPOpenCV.swift */,
+			);
+			path = CPOpenCV;
+			sourceTree = "<group>";
+		};
+		73E674042CA4F02E0015DE78 /* CPOpenCVTests */ = {
+			isa = PBXGroup;
+			children = (
+				73E674052CA4F02E0015DE78 /* CPOpenCVTests.swift */,
+			);
+			path = CPOpenCVTests;
+			sourceTree = "<group>";
+		};
+		C3227AE3C2D3A229F813D77F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				695097D11248F49F989E9062 /* Pods-CPOpenCV.debug.xcconfig */,
+				C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */,
+				81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */,
+				2FA8FD3C5E9210DAE0AE3A13 /* Pods-CPOpenCV-CPOpenCVTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3736220CF07133CED75F51E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */,
+				0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		73E673F12CA4F02D0015DE78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E674132CA4F1060015DE78 /* cp_opencv.hpp in Headers */,
+				73E674072CA4F02E0015DE78 /* CPOpenCV.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		73E673F52CA4F02D0015DE78 /* CPOpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E6740A2CA4F02E0015DE78 /* Build configuration list for PBXNativeTarget "CPOpenCV" */;
+			buildPhases = (
+				C1BC948F65D1B62EF0B09D79 /* [CP] Check Pods Manifest.lock */,
+				73E673F12CA4F02D0015DE78 /* Headers */,
+				73E673F22CA4F02D0015DE78 /* Sources */,
+				73E673F32CA4F02D0015DE78 /* Frameworks */,
+				73E673F42CA4F02D0015DE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPOpenCV;
+			productName = CPOpenCV;
+			productReference = 73E673F62CA4F02D0015DE78 /* CPOpenCV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73E673FF2CA4F02E0015DE78 /* CPOpenCVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E6740D2CA4F02E0015DE78 /* Build configuration list for PBXNativeTarget "CPOpenCVTests" */;
+			buildPhases = (
+				1A661C579A3A503F11FC130B /* [CP] Check Pods Manifest.lock */,
+				73E673FC2CA4F02E0015DE78 /* Sources */,
+				73E673FD2CA4F02E0015DE78 /* Frameworks */,
+				73E673FE2CA4F02E0015DE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73E674032CA4F02E0015DE78 /* PBXTargetDependency */,
+			);
+			name = CPOpenCVTests;
+			productName = CPOpenCVTests;
+			productReference = 73E674002CA4F02E0015DE78 /* CPOpenCVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E673ED2CA4F02D0015DE78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					73E673F52CA4F02D0015DE78 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					73E673FF2CA4F02E0015DE78 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 73E673F02CA4F02D0015DE78 /* Build configuration list for PBXProject "CPOpenCV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73E673EC2CA4F02D0015DE78;
+			productRefGroup = 73E673F72CA4F02D0015DE78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73E673F52CA4F02D0015DE78 /* CPOpenCV */,
+				73E673FF2CA4F02E0015DE78 /* CPOpenCVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73E673F42CA4F02D0015DE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E673FE2CA4F02E0015DE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A661C579A3A503F11FC130B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPOpenCV-CPOpenCVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BC948F65D1B62EF0B09D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPOpenCV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73E673F22CA4F02D0015DE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E673FB2CA4F02D0015DE78 /* CPOpenCV.docc in Sources */,
+				73E674122CA4F1060015DE78 /* cp_opencv.cpp in Sources */,
+				73E674162CA4FA570015DE78 /* CPOpenCV.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E673FC2CA4F02E0015DE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E674062CA4F02E0015DE78 /* CPOpenCVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73E674032CA4F02E0015DE78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73E673F52CA4F02D0015DE78 /* CPOpenCV */;
+			targetProxy = 73E674022CA4F02E0015DE78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73E674082CA4F02E0015DE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73E674092CA4F02E0015DE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73E6740B2CA4F02E0015DE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695097D11248F49F989E9062 /* Pods-CPOpenCV.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WV9454F626;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paipeng.CPOpenCV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPOpenCV/CPOpenCV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73E6740C2CA4F02E0015DE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WV9454F626;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paipeng.CPOpenCV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPOpenCV/CPOpenCV-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73E6740E2CA4F02E0015DE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WV9454F626;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paipeng.CPOpenCVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73E6740F2CA4F02E0015DE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA8FD3C5E9210DAE0AE3A13 /* Pods-CPOpenCV-CPOpenCVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WV9454F626;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paipeng.CPOpenCVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73E673F02CA4F02D0015DE78 /* Build configuration list for PBXProject "CPOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E674082CA4F02E0015DE78 /* Debug */,
+				73E674092CA4F02E0015DE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E6740A2CA4F02E0015DE78 /* Build configuration list for PBXNativeTarget "CPOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E6740B2CA4F02E0015DE78 /* Debug */,
+				73E6740C2CA4F02E0015DE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E6740D2CA4F02E0015DE78 /* Build configuration list for PBXNativeTarget "CPOpenCVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E6740E2CA4F02E0015DE78 /* Debug */,
+				73E6740F2CA4F02E0015DE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73E673ED2CA4F02D0015DE78 /* Project object */;
+}
