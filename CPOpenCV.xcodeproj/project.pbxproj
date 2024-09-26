@@ -16,6 +16,8 @@
 		73E674162CA4FA570015DE78 /* CPOpenCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E674152CA4FA570015DE78 /* CPOpenCV.swift */; };
 		73E674192CA4FFC90015DE78 /* qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E674182CA4FFC90015DE78 /* qrcode.png */; };
 		73E6741B2CA500E00015DE78 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6741A2CA500E00015DE78 /* UIImage+extension.swift */; };
+		73E674232CA508380015DE78 /* cp_sharpness.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E674212CA508380015DE78 /* cp_sharpness.h */; };
+		73E674242CA508380015DE78 /* cp_sharpness.c in Sources */ = {isa = PBXBuildFile; fileRef = 73E674222CA508380015DE78 /* cp_sharpness.c */; };
 		E2B0DEB5B02AEE1BD2CC6303 /* Pods_CPOpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */; };
 		EB44B09DABF25F01993955AE /* Pods_CPOpenCV_CPOpenCVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		73E674182CA4FFC90015DE78 /* qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode.png; sourceTree = "<group>"; };
 		73E6741A2CA500E00015DE78 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
 		73E6741C2CA503F10015DE78 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		73E674212CA508380015DE78 /* cp_sharpness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cp_sharpness.h; sourceTree = "<group>"; };
+		73E674222CA508380015DE78 /* cp_sharpness.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cp_sharpness.c; sourceTree = "<group>"; };
 		81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; path = "Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.release.xcconfig"; path = "Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.release.xcconfig"; sourceTree = "<group>"; };
 		CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +107,8 @@
 				73E674112CA4F1060015DE78 /* cp_opencv.hpp */,
 				73E674142CA4F3D40015DE78 /* CPOpenCV-Bridging-Header.h */,
 				73E674152CA4FA570015DE78 /* CPOpenCV.swift */,
+				73E674212CA508380015DE78 /* cp_sharpness.h */,
+				73E674222CA508380015DE78 /* cp_sharpness.c */,
 			);
 			path = CPOpenCV;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E674232CA508380015DE78 /* cp_sharpness.h in Headers */,
 				73E674132CA4F1060015DE78 /* cp_opencv.hpp in Headers */,
 				73E674072CA4F02E0015DE78 /* CPOpenCV.h in Headers */,
 			);
@@ -325,6 +332,7 @@
 			files = (
 				73E673FB2CA4F02D0015DE78 /* CPOpenCV.docc in Sources */,
 				73E674122CA4F1060015DE78 /* cp_opencv.cpp in Sources */,
+				73E674242CA508380015DE78 /* cp_sharpness.c in Sources */,
 				73E674162CA4FA570015DE78 /* CPOpenCV.swift in Sources */,
 				73E6741B2CA500E00015DE78 /* UIImage+extension.swift in Sources */,
 			);

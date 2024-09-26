@@ -9,5 +9,6 @@
 #define CPOpenCV_Bridging_Header_h
 
 #import "cp_opencv.hpp"
+#import "cp_sharpness.h"
 
 #endif /* CPOpenCV_Bridging_Header_h */
