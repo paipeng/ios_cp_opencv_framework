@@ -60,6 +60,17 @@ final class CPOpenCVTests: XCTestCase {
         let grayImage = UIImage.convert(pixelBuffer: pixelData, width: Int(width), height: Int(height), orientation: UIImage.Orientation.up)
         XCTAssertNotNil(grayImage)
     }
+    
+    
+    func testImageConvertViaWrapper() throws {
+        let bundle = Bundle(for: type(of: self))
+        let path = bundle.path(forResource: "qrcode", ofType: "png")!
+        let image = UIImage(contentsOfFile: path)
+        XCTAssertNotNil(image)
+        let cpopencv = CPOpenCV()
+        let grayImage = cpopencv.convertGray(image: image)
+        XCTAssertNotNil(grayImage)
+    }
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
