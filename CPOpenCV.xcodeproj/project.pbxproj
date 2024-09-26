@@ -34,8 +34,8 @@
 
 /* Begin PBXFileReference section */
 		0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV_CPOpenCVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FA8FD3C5E9210DAE0AE3A13 /* Pods-CPOpenCV-CPOpenCVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; path = "Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; sourceTree = "<group>"; };
-		695097D11248F49F989E9062 /* Pods-CPOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.debug.xcconfig"; path = "Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA8FD3C5E9210DAE0AE3A13 /* Pods-CPOpenCV-CPOpenCVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; path = "../../ios_cp_camera_framework/Pods/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; sourceTree = "<group>"; };
+		695097D11248F49F989E9062 /* Pods-CPOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.debug.xcconfig"; path = "../../ios_cp_camera_framework/Pods/Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
 		73E673F62CA4F02D0015DE78 /* CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E673F92CA4F02D0015DE78 /* CPOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPOpenCV.h; sourceTree = "<group>"; };
 		73E673FA2CA4F02D0015DE78 /* CPOpenCV.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CPOpenCV.docc; sourceTree = "<group>"; };
@@ -50,8 +50,8 @@
 		73E6741C2CA503F10015DE78 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		73E674212CA508380015DE78 /* cp_sharpness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cp_sharpness.h; sourceTree = "<group>"; };
 		73E674222CA508380015DE78 /* cp_sharpness.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cp_sharpness.c; sourceTree = "<group>"; };
-		81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; path = "Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.release.xcconfig"; path = "Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.release.xcconfig"; sourceTree = "<group>"; };
+		81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; path = "../../ios_cp_camera_framework/Pods/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.release.xcconfig"; path = "../../ios_cp_camera_framework/Pods/Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.release.xcconfig"; sourceTree = "<group>"; };
 		CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
