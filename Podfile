@@ -7,6 +7,7 @@ target 'CPOpenCV' do
 
   # Pods for CPOpenCV
   pod 'OpenCV2'
+  pod 'SDWebImageWebPCoder'
 
   target 'CPOpenCVTests' do
     # Pods for testing
