@@ -26,6 +26,11 @@ final class CPOpenCVTests: XCTestCase {
         let str = String(cString: getOpenCVVersion())
         print("opencv: \(str)")
     }
+    
+    func testGetCPOpenCVVersionViaWrapper() throws {
+        let cpopencv = CPOpenCV()
+        print("opencv: \(cpopencv.getVersion())")
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
