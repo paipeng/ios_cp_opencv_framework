@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730BFF0F2CA774660032EE6A /* Pods_CPOpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */; };
+		730BFF102CA774660032EE6A /* Pods_CPOpenCV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		73E673FB2CA4F02D0015DE78 /* CPOpenCV.docc in Sources */ = {isa = PBXBuildFile; fileRef = 73E673FA2CA4F02D0015DE78 /* CPOpenCV.docc */; };
 		73E674012CA4F02E0015DE78 /* CPOpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E673F62CA4F02D0015DE78 /* CPOpenCV.framework */; };
 		73E674062CA4F02E0015DE78 /* CPOpenCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E674052CA4F02E0015DE78 /* CPOpenCVTests.swift */; };
@@ -18,7 +20,6 @@
 		73E6741B2CA500E00015DE78 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6741A2CA500E00015DE78 /* UIImage+extension.swift */; };
 		73E674232CA508380015DE78 /* cp_sharpness.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E674212CA508380015DE78 /* cp_sharpness.h */; };
 		73E674242CA508380015DE78 /* cp_sharpness.c in Sources */ = {isa = PBXBuildFile; fileRef = 73E674222CA508380015DE78 /* cp_sharpness.c */; };
-		E2B0DEB5B02AEE1BD2CC6303 /* Pods_CPOpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */; };
 		EB44B09DABF25F01993955AE /* Pods_CPOpenCV_CPOpenCVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,10 +33,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		730BFF0E2CA774610032EE6A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				730BFF102CA774660032EE6A /* Pods_CPOpenCV.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV_CPOpenCVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FA8FD3C5E9210DAE0AE3A13 /* Pods-CPOpenCV-CPOpenCVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; path = "../../ios_cp_camera_framework/Pods/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; sourceTree = "<group>"; };
-		695097D11248F49F989E9062 /* Pods-CPOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.debug.xcconfig"; path = "../../ios_cp_camera_framework/Pods/Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA8FD3C5E9210DAE0AE3A13 /* Pods-CPOpenCV-CPOpenCVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; path = "../../ios_verifier_app/Pods/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.release.xcconfig"; sourceTree = "<group>"; };
+		695097D11248F49F989E9062 /* Pods-CPOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.debug.xcconfig"; path = "../../ios_verifier_app/Pods/Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
+		730BFF0B2CA774610032EE6A /* libwebp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libwebp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730BFF112CA7746E0032EE6A /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E673F62CA4F02D0015DE78 /* CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E673F92CA4F02D0015DE78 /* CPOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPOpenCV.h; sourceTree = "<group>"; };
 		73E673FA2CA4F02D0015DE78 /* CPOpenCV.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CPOpenCV.docc; sourceTree = "<group>"; };
@@ -50,8 +67,8 @@
 		73E6741C2CA503F10015DE78 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		73E674212CA508380015DE78 /* cp_sharpness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cp_sharpness.h; sourceTree = "<group>"; };
 		73E674222CA508380015DE78 /* cp_sharpness.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cp_sharpness.c; sourceTree = "<group>"; };
-		81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; path = "../../ios_cp_camera_framework/Pods/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.release.xcconfig"; path = "../../ios_cp_camera_framework/Pods/Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.release.xcconfig"; sourceTree = "<group>"; };
+		81222668108129145007141D /* Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; path = "../../ios_verifier_app/Pods/Target Support Files/Pods-CPOpenCV-CPOpenCVTests/Pods-CPOpenCV-CPOpenCVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D34D1208ED0093EE4D8454 /* Pods-CPOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.release.xcconfig"; path = "../../ios_verifier_app/Pods/Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.release.xcconfig"; sourceTree = "<group>"; };
 		CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B0DEB5B02AEE1BD2CC6303 /* Pods_CPOpenCV.framework in Frameworks */,
+				730BFF0F2CA774660032EE6A /* Pods_CPOpenCV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +161,8 @@
 		C3736220CF07133CED75F51E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				730BFF112CA7746E0032EE6A /* SDWebImage.framework */,
+				730BFF0B2CA774610032EE6A /* libwebp.framework */,
 				CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */,
 				0306571CED6C9BF192874E82 /* Pods_CPOpenCV_CPOpenCVTests.framework */,
 			);
@@ -175,6 +194,7 @@
 				73E673F22CA4F02D0015DE78 /* Sources */,
 				73E673F32CA4F02D0015DE78 /* Frameworks */,
 				73E673F42CA4F02D0015DE78 /* Resources */,
+				730BFF0E2CA774610032EE6A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
