@@ -53,6 +53,7 @@
 		695097D11248F49F989E9062 /* Pods-CPOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOpenCV.debug.xcconfig"; path = "../../ios_verifier_app/Pods/Target Support Files/Pods-CPOpenCV/Pods-CPOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
 		730BFF0B2CA774610032EE6A /* libwebp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libwebp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		730BFF112CA7746E0032EE6A /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730BFF1B2CA779E10032EE6A /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E673F62CA4F02D0015DE78 /* CPOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E673F92CA4F02D0015DE78 /* CPOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPOpenCV.h; sourceTree = "<group>"; };
 		73E673FA2CA4F02D0015DE78 /* CPOpenCV.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CPOpenCV.docc; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 		C3736220CF07133CED75F51E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				730BFF1B2CA779E10032EE6A /* SDWebImage.framework */,
 				730BFF112CA7746E0032EE6A /* SDWebImage.framework */,
 				730BFF0B2CA774610032EE6A /* libwebp.framework */,
 				CB9E77324DC5E583533ACF1D /* Pods_CPOpenCV.framework */,
