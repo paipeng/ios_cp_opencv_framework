@@ -11,7 +11,7 @@ import Accelerate
 import SDWebImageWebPCoder
 
 
-enum FilterType : String {
+public enum FilterType : String {
     case Chrome = "CIPhotoEffectChrome"
     case Fade = "CIPhotoEffectFade"
     case Instant = "CIPhotoEffectInstant"
@@ -45,8 +45,8 @@ struct t_bitmap_header {
 }
 
 
-extension UIImage {
-    func addFilter(filter : FilterType) -> UIImage {
+public extension UIImage {
+    public func addFilter(filter : FilterType) -> UIImage {
         let filter = CIFilter(name: filter.rawValue)
         // convert UIImage to CIImage and set as input
         let ciInput = CIImage(image: self)
